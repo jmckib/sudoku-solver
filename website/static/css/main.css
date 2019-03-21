@@ -123,6 +123,13 @@ textarea {
        text-align: center;
    }
 
+   input#solve {
+       margin: 10px;
+       height: 40px;
+       width: 80px;
+       font-size: 16pt;
+   }
+
 
  /* ==========================================================================
    Helper classes

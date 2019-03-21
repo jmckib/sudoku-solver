@@ -6,4 +6,6 @@ def index():
     if request.method == 'GET':
         return app.send_static_file('index.html')
     else:
-        pass
+        values = {key: val if val else '123456789'
+                  for key, val in request.form.items()}
+        return app.send_static_file('index.html')
