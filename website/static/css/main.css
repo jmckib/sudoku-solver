@@ -98,18 +98,30 @@ textarea {
    ========================================================================== */
 
 
+   table.grid {
+       border-collapse: collapse;
+       background-color: #FFFFFF;
+       border: #666699 solid 2px;
+   }
+
+   td.square {
+       vertical-align: middle;
+       text-align: center;
+       font-size: 18pt;
+       width: 24pt;
+       height: 25pt;
+       font-family: times,serif;
+       padding: 0;
+       margin: 0;
+       border: #DDDDEE solid 1px;
+   }
 
 
-
-
-
-
-
-
-
-
-
-
+   td.square input {
+       background-color: transparent;
+       border: 0px solid;
+       text-align: center;
+   }
 
 
  /* ==========================================================================
@@ -286,5 +298,3 @@ textarea {
         page-break-after: avoid;
     }
 }
-
-
