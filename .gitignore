@@ -102,3 +102,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+*.pyc
+.DS_Store
+
+# Emacs backup and messup files
+*#
+*~
+*.#*
